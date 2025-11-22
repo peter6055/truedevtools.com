@@ -76,5 +76,5 @@ The app is built with [Vite](https://vitejs.dev/) and [React](https://reactjs.or
 
 #### Use docker-compose
 1. Clone the repository
-2. Run `docker-compose up -d --build` to build and start the container
+2. Run `docker compose up -d --build` to build and start the container
 3. Open `http://localhost:3000` in your browser
