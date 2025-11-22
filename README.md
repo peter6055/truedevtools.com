@@ -67,8 +67,14 @@ The app is lightweight and run entirely on your client-side, ensures a seamless 
 - Cron Expression Parser
 
 ### Deployment
+#### Use docker
 The app is built with [Vite](https://vitejs.dev/) and [React](https://reactjs.org/). To deploy it on your own server, follow these steps:
 1. Clone the repository
 2. Run `docker build -t truedevtools .` to build the Docker image
 3. Run `docker run -d --restart always -p 3000:3000 --name truedevtools truedevtools` to start the container
 4. Open `http://localhost:3000` in your browser
+
+#### Use docker-compose
+1. Clone the repository
+2. Run `docker-compose up -d --build` to build and start the container
+3. Open `http://localhost:3000` in your browser
